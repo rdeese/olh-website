@@ -81,15 +81,14 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-lang: en-GB # Set the site language
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
+lang: en-US # Set the site language
+title: "OLH" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/olh.svg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+description: "Chicago's old-timey folk collective" # Site description and default description, also used in jekyll-seo-tag
 url: "https://rdeese.github.io/olh-website" # Site url, also used in jekyll-seo-tag
 baseurl: "/olh-website"
-repo: "https://github.com/daviddarnes/alembic"
+repo: "https://github.com/rdeese/olh-website"
 email: "me@daviddarnes.com"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 # google_analytics: ''
 # service_worker: false # Will turn off the service worker if set to false
@@ -98,28 +97,26 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 # 8. Site navigation
 navigation_header:
   Home: /
-  Elements: /elements/
-  Blog: /blog/
-  Categories: /categories/
-  Search: /search/
-  Fork Alembic: https://github.com/daviddarnes/alembic
+  Acts: /acts/
+  Calendar: /calendar/
+  Chicago Folk Scene: /scene/
 
-social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  Google+: https://plus.google.com/+DavidDarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
-  RSS: /feed.xml
-
-sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
-  Twitter: "#0d94e7"
-  facebook: "#3B5998"
-  Google+: "#DC4E41"
-  # Pinterest: "#BD081C"
-  # LinkedIn: "#0077B5"
-  # tumblr: "#36465D"
-  # Reddit: "#FF4500"
-  # Hacker News: "#ff6600"
-  # Designer News: "#2D72D9"
-  # Email: ""
+# social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+#   Twitter: https://twitter.com/DavidDarnes
+#   LinkedIn: https://www.linkedin.com/in/daviddarnes
+#   Google+: https://plus.google.com/+DavidDarnes
+#   GitHub: https://github.com/daviddarnes
+#   link: https://darn.es
+#   RSS: /feed.xml
+# 
+# sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
+#   Twitter: "#0d94e7"
+#   facebook: "#3B5998"
+#   Google+: "#DC4E41"
+#   # Pinterest: "#BD081C"
+#   # LinkedIn: "#0077B5"
+#   # tumblr: "#36465D"
+#   # Reddit: "#FF4500"
+#   # Hacker News: "#ff6600"
+#   # Designer News: "#2D72D9"
+#   # Email: ""
