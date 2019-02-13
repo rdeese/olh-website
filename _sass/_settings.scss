@@ -1,21 +1,21 @@
 // Background colours
 $backgroundColour: #ffffff;
 $codeBackgroundColour: #fafafa;
-$featureBackgroundColour: #f9fafa;
-$accentColour: #05bf85;
+$featureBackgroundColour: #f9f9f8;
+$accentColour: #cea035;
 
 // Text colours
-$headingColour: #242e2b;
-$bodyColour: #384743;
-$linkColour: #05bf85;
-$hoverColour: #008000;
-$focusColour: #fa407a;
-$captionColour: #a8adac;
+$headingColour: #2e2b24;
+$bodyColour: #474238;
+$linkColour: #cea035;
+$hoverColour: #805900;
+$focusColour: #fa407a; // TODO: something less pink
+$captionColour: #2e2b24;
 $white: #ffffff;
 
 // Typography
 $bodytype: (
-  font-family: 'Georgia, serif',
+  font-family: '"Rubik", sans-serif',
   regular: 400,
   bold: 700,
   italic: italic,
@@ -23,7 +23,7 @@ $bodytype: (
 );
 
 $headingtype: (
-  font-family: '"Merriweather", serif',
+  font-family: '"Rubik", sans-serif',
   regular: 400,
   bold: 700,
   cap-height: 0.75
@@ -36,4 +36,4 @@ $monospacetype: (
 );
 
 // Font import, if you're using a non-standard web font
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
