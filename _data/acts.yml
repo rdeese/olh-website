@@ -1,0 +1,40 @@
+- name: Can I Get An Amen
+  image: /assets/img/amen.jpg
+  links:
+    Listen: https://canigetanamen.bandcamp.com/
+    Booking: https://magevents.com/band/can-i-get-an-amen/
+
+- name: Glass Mountain
+  image: /assets/img/glassmountain.jpg
+  links:
+    Listen: http://www.glassmountainmusic.com/listen
+    Website: http://www.glassmountainmusic.com/
+    Booking: http://www.glassmountainmusic.com/contact
+
+- name: Spitzer & Mareva
+  image: /assets/img/sstmareva.jpg
+  links:
+    Listen: https://sstandmareva.bandcamp.com/album/spitzer-mareva
+    Website: http://sstandmareva.com/
+    Booking: mailto:dan@danmacdonaldstudios.com
+
+- name: Emily Nott
+  image: /assets/img/emilynott.jpg
+  links:
+    Website: https://www.emilynottmusic.com/
+    Booking: https://www.emilynottmusic.com/contact
+
+- name: Joybird
+  image: /assets/img/joybird.png
+  links:
+    Listen: https://joybirdmusic.bandcamp.com/album/long-time-exhaling
+    Website: https://www.joybirdmusic.com/
+    Booking: https://www.joybirdmusic.com/contact
+
+- name: Patrik Ahlberg
+  image: /assets/img/ahlberg.jpg
+  links:
+    Listen: https://patrikahlberg.bandcamp.com/
+    Website: https://www.patrikahlberg.com/
+    Booking: https://www.patrikahlberg.com/contact
+

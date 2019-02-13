@@ -1,6 +1,4 @@
 ---
-layout: page
+layout: acts
 permalink: /acts/
 ---
-
-<center>Coming soon...</center>
