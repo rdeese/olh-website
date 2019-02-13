@@ -15,27 +15,6 @@ integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="ano
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.css">
 <link rel="stylesheet" media="print" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.print.css">
 
-<script>
-$(document).ready(function() {
-    $('#calendar').fullCalendar({
-        googleCalendarApiKey: 'AIzaSyDJ_T2hPfk2rYeq6HSwzZ8yrSKx6CzaamM',
-        events: {
-          googleCalendarId: 'oldlazarusharp@gmail.com'
-        },
-        googleCalendarError: function(error) {
-            console.log("Error was", error);
-        },
-        eventRender: function(eventObj, $el) {
-            $el.popover({
-              title: eventObj.title,
-              content: eventObj.location,
-              trigger: 'hover',
-              placement: 'top',
-              container: '#calendar'
-            });
-        }
-	});
-});
-</script>
+<script src="{{ site.baseurl }}/assets/js/calendar.js"></script>
 
 <div id="calendar" class="with-bootstrap"></div>
