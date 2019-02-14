@@ -15,6 +15,9 @@ integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="ano
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.min.css">
 <link rel="stylesheet" media="print" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/fullcalendar.print.css">
 
+<script src="{{ site.baseurl }}/assets/js/linkify.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/linkify-html.min.js"></script>
+
 <script src="{{ site.baseurl }}/assets/js/calendar.js"></script>
 
 <div id="calendar" class="with-bootstrap"></div>

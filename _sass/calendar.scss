@@ -29,4 +29,10 @@
     text-decoration: none;
     border: 1px solid $linkColour;
   }
+
+  .popover-content {
+    height: 300px;
+    overflow: scroll;
+    word-break: break-word;
+  }
 }

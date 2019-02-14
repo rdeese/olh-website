@@ -2,16 +2,28 @@ const onEventClick = (event) => {
   return false;
 };
 
+const htmlDescription = (description) => {
+  if (description) {
+    return `
+    <br><br><b>Description</b><br>
+    ${linkifyHtml(description.replace(/\n/g, '<br>'))}
+    `
+  } else {
+    return '';
+  }
+}
+
 const onEventRender = (event, $el) => {
   console.log("Event is", event);
   const template = document.createElement('template');
   template.innerHTML = `
     <div>
-      <b>Where:</b><br>
+      <b>Where</b><br>
       ${event.location}
       <br><br>
-      <b>When:</b><br>
+      <b>When</b><br>
       ${event.start.format('h:mm A')} - ${event.end.format('h:mm A')}
+      ${htmlDescription(event.description)}
     </div>
   `.trim()
 
@@ -36,9 +48,14 @@ const config = {
     list:     'List'
   },
   defaultView: 'month',
-  events: {
-    googleCalendarId: 'oldlazarusharp@gmail.com'
-  },
+  eventSources: [
+    {
+      googleCalendarId: 'oldlazarusharp@gmail.com'
+    },
+    {
+      googleCalendarId: '7o43vplmmlduhr499lp9aectdl3g0e33@import.calendar.google.com'
+    }
+  ],
   eventClick: onEventClick,
   eventRender: onEventRender,
   googleCalendarApiKey: 'AIzaSyDJ_T2hPfk2rYeq6HSwzZ8yrSKx6CzaamM',
@@ -49,7 +66,8 @@ const config = {
     left:   'prev,next today',
     center: 'title',
     right:  'month,listMonth'
-  }
+  },
+  timezone: 'local'
 }
 
 const onReady = () => {
