@@ -86,7 +86,7 @@ title: "OLH" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/olh.svg" # Site logo, also used in jekyll-seo-tag
 description: "Chicago's old-timey folk collective" # Site description and default description, also used in jekyll-seo-tag
 url: "https://rdeese.github.io/olh-website" # Site url, also used in jekyll-seo-tag
-baseurl: "/olh-website"
+baseurl: ""
 repo: "https://github.com/rdeese/olh-website"
 email: "me@daviddarnes.com"
 avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
