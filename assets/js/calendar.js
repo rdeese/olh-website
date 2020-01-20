@@ -53,7 +53,7 @@ const config = {
       googleCalendarId: 'oldlazarusharp@gmail.com'
     },
     {
-      googleCalendarId: '7o43vplmmlduhr499lp9aectdl3g0e33@import.calendar.google.com'
+      googleCalendarId: 'hit1s1e9qo2cbvprcijgaceshml3k8i5@import.calendar.google.com'
     }
   ],
   eventClick: onEventClick,
